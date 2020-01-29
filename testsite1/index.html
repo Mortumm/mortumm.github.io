@@ -12,12 +12,14 @@
 
   <!-- Bootstrap core CSS, styles and fonts -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <link href="css/landing-page.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 </head>
 
@@ -121,7 +123,7 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/IMG_3722.JPG');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/IMG_3720.JPG');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Kevyt tavarankuljetusperävaunu avo, jarruton teliakselisto (DAU-527)</h2>
           <p class="lead mb-0">- Kokonaismassa 750 kg / omamassa 280 kg / kantavuus 470 kg <br>
@@ -133,6 +135,28 @@
     </div>
   </section>
 
+
+<!--
+  
+ <section class="testimonials">
+  <div class="container">
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+  </div>
+  
+</section>
+   -->
   <!-- Products 
   <section class="testimonials text-center bg-light">
     <div class="container">
@@ -212,11 +236,22 @@
         </div>
       </div>
     </div>
+
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- owl.carousel-->
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 
 </body>
 
