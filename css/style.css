@@ -1,6 +1,6 @@
 body {
 	background-color: #696969;
-	font-family: Monospace, Helvetica;
+	font-family: Monospace;
 	margin-left: 10%;
 	margin-right: auto;
 
@@ -29,7 +29,7 @@ h2	{
 p 	{
 	color: white;
 	margin-left: 10%;
-	width: 440px;
+	width: 500px;
 	padding-bottom: 10px;
 
 }
@@ -67,20 +67,6 @@ footer {
 	background: #424242;
 	color:lightgray;
 				
-}
-
-.infobox2 {
-	position: fixed;
-	left: 65%;
-	top: 17em;
-	z-index: 1;
-	display: block;
-	width: 250px;
-	padding: 3px;
-	margin: 20px;
-	background: #424242;
-	color:lightgray;
-
 }
 
 .banner_left {
@@ -125,5 +111,21 @@ footer {
 	margin: 30px;
 	background: #424242;
 	color: gray
+}
+*/
+
+/*
+.infobox2 {
+	position: fixed;
+	left: 65%;
+	top: 17em;
+	z-index: 1;
+	display: block;
+	width: 250px;
+	padding: 3px;
+	margin: 20px;
+	background: #424242;
+	color:lightgray;
+
 }
 */
