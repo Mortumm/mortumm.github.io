@@ -84,6 +84,14 @@ footer {
 				
 }
 
+.social-icons  {
+	position: fixed;
+	padding: 1px;
+	bottom: 1em;
+	
+	
+}
+
 /*
 .graphic1 {
 	position: fixed;
