@@ -58,7 +58,7 @@ footer {
 .infobox {
 	position: fixed;
 	left: 65%;
-	top: 6em;
+	bottom: 6em;
 	z-index: 1;
 	display: block;
 	width: 250px;
