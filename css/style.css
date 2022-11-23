@@ -57,17 +57,16 @@ footer {
 }
 
 .infobox {
+	display: flex;
 	position: fixed;
-	left: 65%;
-	bottom: 1em;
-	z-index: 1;
+	left: 0%;
+	bottom: 0em;
+	z-index: 2;
 	display: block;
-	width: 250px;
+	width: 100%;
 	padding: 3px;
-	margin: 20px;
 	background: #424242;
-	color:lightgray;
-				
+	color:lightgray;				
 }
 
 .banner_left {
@@ -88,7 +87,7 @@ footer {
 .social-icons  {
 	position: fixed;
 	padding: 1px;
-	bottom: 1em;
+	bottom: 2em;
 	
 	
 }
