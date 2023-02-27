@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
 
     <meta charset="UTF-8">
@@ -14,24 +15,34 @@
 </head>
 
 <body>
-    <h1>See, just pick are you in or out:</h1>
+    <h1>See, just pick: are you in or out:</h1>
     
-    <button>Sign me in</button>
-    <script></script>
+<div class="buttons">
+    <button onclick="SignInFunction()">Sign me in</button>
+    <script>
+        $(document).ready(function() { 
+         $('#SignInFunction').click(function() { 
+            SignIn(); 
+         }); 
+      }); 
+      function SignIn() { 
+         document.getElementById("SignedIn").innerHTML = "You are now signed in at '@worksite'."; 
+      } 
+    </script>
 
-    <button>Sign me out</button>
-    <script></script>
+    <button onclick="SignOutFunction()">Sign me out</button>
+    <script>
+        $(document).ready(function() { 
+         $('#SignOutFunction').click(function() { 
+            SignOut(); 
+         }); 
+      }); 
+      function SignIn() { 
+         document.getElementById("SignedOut").innerHTML = "You are now signed out of '@worksite'."; 
+      } 
+    </script>
 
-<!--<a data-remote="https://i.imgur.com/TBwUQiV.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
-        <img src="https://i.imgur.com/TBwUQiV.jpg" class="img-fluid" height="200" width="150">
-    </a>
--->
-<script>
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-    });
-</script>
+</div>
 
 </body>
 </html>
