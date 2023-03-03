@@ -15,34 +15,38 @@
 </head>
 
 <body>
-    <h1>See, just pick: are you in or out:</h1>
+    <h1>See, just pick: are you in or out?</h1>
+
+   <div class="info">
+      <iframe src="css/style.css" height="300" width="500" margin-left="1%" title="Worksite location"></iframe>
+   </div>
     
-<div class="buttons">
-    <button onclick="SignInFunction()">Sign me in</button>
-    <script>
-        $(document).ready(function() { 
-         $('#SignInFunction').click(function() { 
-            SignIn(); 
+   <div class="buttons">
+      <button onclick="SignInFunction()">Sign me in</button>
+      <script>
+         $(document).ready(function() { 
+            $('#SignInFunction').click(function() { 
+               SignIn(); 
+            }); 
          }); 
-      }); 
-      function SignIn() { 
-         document.getElementById("SignedIn").innerHTML = "You are now signed in at '@worksite'."; 
-      } 
-    </script>
+         function SignIn() { 
+            document.getElementById("SignedIn").innerHTML = "You are now signed in at '@worksite'."; 
+         } 
+      </script>
 
-    <button onclick="SignOutFunction()">Sign me out</button>
-    <script>
-        $(document).ready(function() { 
-         $('#SignOutFunction').click(function() { 
-            SignOut(); 
+      <button onclick="SignOutFunction()">Sign me out</button>
+      <script>
+         $(document).ready(function() { 
+            $('#SignOutFunction').click(function() { 
+               SignOut(); 
+            }); 
          }); 
-      }); 
-      function SignIn() { 
-         document.getElementById("SignedOut").innerHTML = "You are now signed out of '@worksite'."; 
-      } 
-    </script>
+         function SignIn() { 
+            document.getElementById("SignedOut").innerHTML = "You are now signed out of '@worksite'."; 
+         } 
+      </script>
 
-</div>
+   </div>
 
 </body>
 </html>

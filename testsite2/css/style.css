@@ -19,12 +19,15 @@ h1	{
 
 }
 
-.buttons {
+buttons {
     color:#252525;
     font-size: 20px;
     margin-left: 1%;
     margin-top: 10%;
     border: none;
     
+}
+info {
+	margin-left: 1%;
 }
 
