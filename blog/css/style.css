@@ -3,7 +3,7 @@ body {
 	font-family: Monospace;
 	margin-left: 10%;
 	margin-right: auto;
-
+	overflow: hidden;
 }
 
 a {
