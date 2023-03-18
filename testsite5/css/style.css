@@ -1,0 +1,10 @@
+body {
+    background-color: #252525;
+    color: white;
+  }
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: #252525;
+    }
+  }
