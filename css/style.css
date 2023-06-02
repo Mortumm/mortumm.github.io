@@ -104,10 +104,6 @@ footer {
     width: 458px;
   }
 
-  a {
-    text-decoration: underline;
-  }
-
   .close-cookies {
     cursor: pointer;
   }
