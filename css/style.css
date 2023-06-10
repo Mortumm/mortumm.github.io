@@ -108,7 +108,7 @@ footer {
     cursor: pointer;
   }
 
-  @include media-breakpoint-down(md) {
+/*  @include media-breakpoint-down(md) {
     bottom: 0;
     left: 0;
     right: 0;
@@ -119,6 +119,7 @@ footer {
     }
   }
 }
+*/
 /*
 .graphic1 {
 	position: fixed;
