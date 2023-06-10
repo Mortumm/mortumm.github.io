@@ -107,19 +107,7 @@ footer {
   .close-cookies {
     cursor: pointer;
   }
-
-/*  @include media-breakpoint-down(md) {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 0;
-
-    > div:first-child {
-      width: auto;
-    }
-  }
 }
-*/
 /*
 .graphic1 {
 	position: fixed;
