@@ -1,95 +1,91 @@
 body {
-	background-color: #696969;
-	font-family: Monospace;
-	margin-left: 10%;
-	margin-right: auto;
-
+  background-color: #696969;
+  font-family: Monospace;
+  margin-left: 10%;
+  margin-right: auto;
 }
 
 a {
-	color: SlateGray;
-	text-decoration: none;
-
+  color: SlateGray;
+  text-decoration: none;
 }
 
-h1	{
-	color: white;
-	margin-right: 30px;
-	padding-bottom: 35px;
-
+h1 {
+  color: white;
+  margin-right: 30px;
+  padding-bottom: 35px;
 }
 
-h2	{
-	color: white;
-	margin-left: 10%;
-
+h2 {
+  color: white;
+  margin-left: 10%;
 }
 
-
-p 	{
-	color: white;
-	margin-left: 10%;
-	width: 500px;
-	padding-bottom: 10px;
-
+p {
+  color: white;
+  margin-left: 10%;
+  width: 500px;
+  padding-bottom: 10px;
 }
 
-.bottom	{
-	color: white;
-	text-align: center;
-	font-style: italic;
-
+.bottom {
+  color: white;
+  text-align: center;
+  font-style: italic;
 }
 
 IMG.middle {
-	display: block;
-	margin-left: 10%;
-	margin-right: auto;
-
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
 }
 
 footer {
-	text-align: center;
-	color: white;
-	margin-left: auto;
-
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  position: fixed;
+  bottom: 1em;
 }
 
 .infobox {
-	position: fixed;
-	left: 65%;
-	bottom: 1em;
-	z-index: 1;
-	display: block;
-	width: 250px;
-	padding: 3px;
-	margin: 20px;
-	background: #424242;
-	color:lightgray;
-				
+  position: fixed;
+  left: 65%;
+  bottom: 1em;
+  z-index: 1;
+  display: block;
+  width: 250px;
+  padding: 3px;
+  margin: 20px;
+  background: #424242;
+  color: lightgray;
 }
 
 .banner_left {
-	position: fixed;
-	left: 0%;
-	top: 0em;
-	z-index: 1;
-	display: block;
-	height: 120%;
-	width: 25px;
-	padding: 11px;
-	line-height: 40px;
-	background: #424242;
-	color:lightgray;
-				
+  position: fixed;
+  left: 0%;
+  top: 0em;
+  z-index: 1;
+  display: block;
+  height: 120%;
+  width: 25px;
+  padding: 11px;
+  line-height: 40px;
+  background: #424242;
+  color: lightgray;
 }
 
-.social-icons  {
-	position: fixed;
-	padding: 1px;
-	bottom: 1em;
-	
-	
+.social-icons {
+  position: fixed;
+  padding: 1px;
+  bottom: 1em;
+}
+
+table {
+  color: white;
+  margin-left: 10%;
+  width: 500px;
+  padding-bottom: 10px;
 }
 
 /*

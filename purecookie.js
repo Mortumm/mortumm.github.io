@@ -5,7 +5,6 @@ var purecookieLink = '<a href="https://nunofix.com/cookiepolicy.html" target="_b
 var purecookieButton = "Understood"; // Button text
 // ---        --- //
 
-
 function pureFadeIn(elem, display){
   var el = document.getElementById(elem);
   el.style.opacity = 0;
