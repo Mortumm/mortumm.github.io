@@ -1,9 +1,8 @@
 // --- Config --- //
-var purecookieTitle = "Cookies."; // Title
-var purecookieDesc = "We use those."; // Description
-var purecookieLink = '<a href="https://nunofix.com/cookiepolicy.html" target="_blank">What for?</a>'; // Cookiepolicy link
-var purecookieButton = "Understood"; // Button text
-// ---        --- //
+var purecookieTitle = "Cookies.";
+var purecookieDesc = "We use those.";
+var purecookieLink = '<a href="https://nunofix.com/cookiepolicy.html">What for?</a>';
+var purecookieButton = "Understood";
 
 function pureFadeIn(elem, display){
   var el = document.getElementById(elem);
