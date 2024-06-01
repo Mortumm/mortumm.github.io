@@ -1,5 +1,11 @@
-# mortumm.github.io
+# mortumm.dev
 
-My worklog and future portfolio. Currently documenting my engineering studies in the background. Once I have enough material to feel confident about, notes and assignments will be published in markdown format.
+My worklog and portfolio page.
 
+## License
 
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Credits
+
+Thank you very much PQuod for this dashing theme.
