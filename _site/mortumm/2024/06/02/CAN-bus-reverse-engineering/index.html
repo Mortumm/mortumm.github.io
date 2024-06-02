@@ -61,25 +61,52 @@
 <main class="page_content" aria-label="Content">
       
     <article>
-  <h1>Setup and initial post for testing</h1>
+  <h1>CAN bus reverse engineering of an electronic turbocharger</h1>
   
   
     <div class="page-typo-type">
       <label class="typo-dys-label" aria-label="typo sans-serif" for="typo-dys"></label>
     </div>
   
-  <h1 id="initial-post-for-gh-pages-with-jekyll">Initial post for GH Pages with Jekyll</h1>
+  <h2 id="the-idea">The idea</h2>
 
-<p>Awesome, looks live enough.
-Transferring older posts here soon, current project scope and the hurdles encountered or conquered will be here too.
-Lovely to see you here &lt;3</p>
+<p>A race car driver friend of mine, had an idea to make use of a electronic turbo that landed on his lap by chance.</p>
+
+<p>The point there is to have an immediate and finely tuned response based on our algorithm that is a product of the information given by the ECU (Engine Control Unit) such as engine RPM and the amount of boost based on it with timings. This is rather different approach than the typical turbochargers that benefit the power producing process with a distinct delay, through compression of air intake for combustion.</p>
+
+<h2 id="what-were-working-with">What we’re working with</h2>
+
+<p>CAN as in Controlled Area Network, is a serial communication platform with widespread adoption in automotive and vehicle industry. Usually depicted with words such as efficient and reliable, albeit the practical and / or the end user experiences vary.</p>
+
+<p>Arduino with a CAN bus shield is a straightforward and cheap option to start with. The serial sniffing / decoding setup is a work in progress, will have to do some digging first to determine how to access the required information, or better yet, if a already familiar tool like Wireshark is suitable for extraction, and then on to decoding it.</p>
+
+<p>A completely different microcontroller for real-time control system could be a requirement in the real world use case, but Arduino platform gets us started.</p>
+
+<h2 id="what-is-known-and-not-known">What is known and not known</h2>
+
+<p>eTurbo is used in certain VAG produced higher end vehicle models. It was quickly removed and replaced with a similar option, this explains the ready availability of such part. Replacement reasons are unknown.</p>
+
+<p>The eTurbo requires 38-42 Volts for operation, colleague already has a solution for this. The information passed by the ECU to the CAN bus is still unknown. Hence the sniffing.</p>
+
+<p>Safeguards for situations such as overboosting or voltage overload / draw. Proceeding with checkpoints to make sure it is safe and working as expected.
+Our safety is priority one, but also for the parts used and when ready for actual testing the vehicle itself. Necessary precautions are made to ensure this.</p>
+
+<p>The connector type required is a off the shelf type, although the need for modification and customization can be circumvented with 3D-printing the connector for our specific needs and use cases.</p>
+
+<p>There are similar projects already, but the information gathered from these is not publicly available.</p>
+
+<h2 id="whats-next">Whats next</h2>
+
+<p>The work ahead of us progresses in bursts, since we happen to live more than 300 km apart from each other, and the time we have available to further this is in a pretty tight spot. Going to be slow but steady progress.</p>
+
+<p>Nonetheless, this is a interesting project to work on, but it is also a great continuation to my past project experience in the automotive industry.</p>
 
 
 <div class="post_footer">
   <h2 class="list_post_info">
     
       <a href="//categories/mortumm">Mortumm</a> ✷
-      15 May 2024
+      02 June 2024
   </h2>
 </div>
   <div class="line"></div>

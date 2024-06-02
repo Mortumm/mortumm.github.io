@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --bg-color: #f2f2f2;
-  --font-serif: "Libre Baskerville", serif;
+  /* --font-serif: "Libre Baskerville", serif; // Serif font */
   --font-sansserif: "Montserrat", sans-serif;
   --font-color: #333333;
   --font-size: 22px;
@@ -21,8 +21,8 @@
   --light-mode-label: "LIGHT MODE";
   --typo-plus-label: "A+";
   --typo-moins-label: "A-";
-  --sans-serif-label: " SANS-SERIF FONT";
-  --serif-label: "SERIF FONT";
+  /* --sans-serif-label: " SANS-SERIF FONT"; // Label displayed at the top of posts to change the font-style to sans-serif */
+  /* --serif-label: "SERIF FONT"; // Label displayed at the top of posts to change the font-style to serif */
 }
 
 /* Dark-mode styles */
