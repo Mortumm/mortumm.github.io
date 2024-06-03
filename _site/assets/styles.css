@@ -8,13 +8,13 @@
   --font-color: #333333;
   --font-size: 22px;
   --text-width: 35em;
-  --text-font: var(--font-serif);
+  --text-font: var(--font-sansserif);
   --line-height: calc(var(--font-size) * 2);
   --custom-color: cyan;
   --lines: linear-gradient(
-    to top,
-    var(--custom-color) 50%,
-    rgba(255, 255, 255, 0) 50%
+      to top,
+      var(--custom-color) 50%,
+      rgba(255, 255, 255, 0) 50%
   );
   --quote-color: #e7e8ea;
   --dark-mode-label: "DARK MODE";
@@ -32,9 +32,9 @@
   --font-color: #eee;
   --custom-color: #ef1a63;
   --lines: linear-gradient(
-    to top,
-    var(--custom-color) 50%,
-    rgba(255, 255, 255, 0) 50%
+      to top,
+      var(--custom-color) 50%,
+      rgba(255, 255, 255, 0) 50%
   );
   --quote-color: #333642;
 }

@@ -23,12 +23,12 @@ A completely different microcontroller for real-time control system could be a r
 
 eTurbo is used in certain VAG produced higher end vehicle models. It was quickly removed and replaced with a similar option, this explains the ready availability of such part. Replacement reasons are unknown.
 
-The eTurbo requires 38-42 Volts for operation, colleague already has a solution for this. The information passed by the ECU to the CAN bus is still unknown. Hence the sniffing.
+The eTurbo requires ~~38-42 Volts~~ 48V for operation, colleague already has a solution for this. The information passed by the ECU to the CAN bus is still unknown. Hence the sniffing.
 
 Safeguards for situations such as overboosting or voltage overload / draw. Proceeding with checkpoints to make sure it is safe and working as expected.
-Our safety is priority one, but also for the parts used and when ready for actual testing the vehicle itself. Necessary precautions are made to ensure this.
+Our safety is priority one, but also for the parts used and when ready for actual testing the vehicle itself. Necessary precautions are made to ensure these.
 
-The connector type required is a off the shelf type, although the need for modification and customization can be circumvented with 3D-printing the connector for our specific needs and use cases.
+The connector type required is a off the shelf type, although the need for modification and customization can be circumvented with 3D printing the connector for our specific needs and testing.
 
 There are similar projects already, but the information gathered from these is not publicly available.
 

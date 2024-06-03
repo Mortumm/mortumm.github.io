@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2024-06-02T14:28:44+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">mortumm.dev</title><subtitle>Mortumm&apos;s worklog and portfolio: Hardware enthusiasts transition to software through engineering.</subtitle><entry><title type="html">CAN bus reverse engineering of an electronic turbocharger</title><link href="http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering/" rel="alternate" type="text/html" title="CAN bus reverse engineering of an electronic turbocharger" /><published>2024-06-02T00:00:00+03:00</published><updated>2024-06-02T00:00:00+03:00</updated><id>http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering</id><content type="html" xml:base="http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering/"><![CDATA[<h2 id="the-idea">The idea</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2024-06-03T17:51:46+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">mortumm.dev</title><subtitle>Mortumm&apos;s worklog and portfolio: Hardware enthusiasts transition to software through engineering.</subtitle><entry><title type="html">CAN bus reverse engineering of an electronic turbocharger</title><link href="http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering/" rel="alternate" type="text/html" title="CAN bus reverse engineering of an electronic turbocharger" /><published>2024-06-02T00:00:00+03:00</published><updated>2024-06-02T00:00:00+03:00</updated><id>http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering</id><content type="html" xml:base="http://localhost:4000/mortumm/2024/06/02/CAN-bus-reverse-engineering/"><![CDATA[<h2 id="the-idea">The idea</h2>
 
 <p>A race car driver friend of mine, had an idea to make use of a electronic turbo that landed on his lap by chance.</p>
 
@@ -16,12 +16,12 @@
 
 <p>eTurbo is used in certain VAG produced higher end vehicle models. It was quickly removed and replaced with a similar option, this explains the ready availability of such part. Replacement reasons are unknown.</p>
 
-<p>The eTurbo requires 38-42 Volts for operation, colleague already has a solution for this. The information passed by the ECU to the CAN bus is still unknown. Hence the sniffing.</p>
+<p>The eTurbo requires <del>38-42 Volts</del> 48V for operation, colleague already has a solution for this. The information passed by the ECU to the CAN bus is still unknown. Hence the sniffing.</p>
 
 <p>Safeguards for situations such as overboosting or voltage overload / draw. Proceeding with checkpoints to make sure it is safe and working as expected.
-Our safety is priority one, but also for the parts used and when ready for actual testing the vehicle itself. Necessary precautions are made to ensure this.</p>
+Our safety is priority one, but also for the parts used and when ready for actual testing the vehicle itself. Necessary precautions are made to ensure these.</p>
 
-<p>The connector type required is a off the shelf type, although the need for modification and customization can be circumvented with 3D-printing the connector for our specific needs and use cases.</p>
+<p>The connector type required is a off the shelf type, although the need for modification and customization can be circumvented with 3D printing the connector for our specific needs and testing.</p>
 
 <p>There are similar projects already, but the information gathered from these is not publicly available.</p>
 
