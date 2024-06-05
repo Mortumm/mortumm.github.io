@@ -23,7 +23,7 @@ Past work and projects with their respective descriptions in short.
 
 - **Public Library**
 
-  Service and security management: Managing a small team (+10), system administrator, helpdesk enthusiast, networker. A very, and I mean very versatile and sometimes challenging environment.
+  Service and security management: Managing a small team, system administrator, helpdesk enthusiast, problem and conflict solver. A very, and I mean very versatile and sometimes challenging though rewarding environment.
 
 - **Security**
 
