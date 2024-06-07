@@ -8,10 +8,10 @@ permalink: /about/
 ## In short
 
 This my very own small corner in the web.
-An engineer to be, hardware enthusiast at heart. A problem solver with perseverance.
-A minimalist.
+An engineer to be, hardware enthusiast at heart.
+A problem solver with perseverance. A minimalist.
 
-Current focus is on server infrastructure and cloud solutions. Some software development too in C# and Rust.
+Current focus is on server infrastructure and cloud solutions. Some software development too.
 
 
 ## CV

@@ -1,131 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-GB">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, intial-scale=1">
-    
-    <title>mortumm.dev</title>
-    <meta name="description" content="Mortumm's worklog and portfolio: Hardware enthusiasts transition to software through engineering.">
-    <link rel="stylesheet" href="/assets/styles.css"></head>
-<body><input class="dark-mode-checkbox sr-only" id="dark-mode" type="checkbox">
-<input class="typo-plus-checkbox sr-only" id="typo-plus" type="checkbox">
-<input class="typo-dys-checkbox sr-only" id="typo-dys" type="checkbox">
-<div class="theme-container grow">
-<header>
-    <div class="site_title" role="heading" aria-level="1">
-      <a href="/" class="site-title">
-        mortumm.dev
-      </a>
-    </div>
-  <nav>
-      
-      
-        
-      
-        
-      
-        
-            <a href="/about/" class="pages_links">
-              <span class="pages_names">About</span>
-            </a>
-        
-      
-        
-            <a href="/archives/" class="pages_links">
-              <span class="pages_names">Archives</span>
-            </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-  </nav>
-  <div class="site_functions">
-    
-      <label class="dark-mode-label" aria-label="Night Mode" for="dark-mode"></label>
-    
-    
-      <label class="typo-plus-label" aria-label="Change font size" for="typo-plus"></label>
-    
-  </div>
-</header>
-<main class="page_content" aria-label="Content">
-      
-    <article>
-  
-  
-  
-    <div class="apercu-post" role="list">
-      
-        <a href="/mortumm/2024/06/02/CAN-bus-reverse-engineering/" role="listitem">
-          <h1 class="list_post_title"><span class="a-nude">CAN bus reverse engineering of an electronic turbocharger</span></h1>
-        </a>
-        
-        <h2 class="list_post_info">Mortumm ✷ 02 June 2024</h2>
-        <div class="line"></div>
-      
-        <a href="/mortumm/2024/06/01/ImportOld/" role="listitem">
-          <h1 class="list_post_title"><span class="a-nude">ImportOld</span></h1>
-        </a>
-        
-        <h2 class="list_post_info">Mortumm ✷ 01 June 2024</h2>
-        <div class="line"></div>
-      
-        <a href="/mortumm/2024/05/15/InitialPost/" role="listitem">
-          <h1 class="list_post_title"><span class="a-nude">Setup and initial post for testing</span></h1>
-        </a>
-        
-        <h2 class="list_post_info">Mortumm ✷ 15 May 2024</h2>
-        <div class="line"></div>
-      
-    </div>
-  
-</article>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width-device-width, intial-scale=1" />
 
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
 
-    </main>      <footer>
-        © Mortumm
-      </footer>
-    </div>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-  const checkbox = document.querySelector('.dark-mode-checkbox');
+        <title>mortumm.dev</title>
+        <meta
+            name="description"
+            content="Mortumm's worklog and portfolio: Hardware enthusiasts transition to software through engineering."
+        />
+        <link rel="stylesheet" href="/assets/styles.css" />
+    </head>
+    <body>
+        <input
+            class="dark-mode-checkbox sr-only"
+            id="dark-mode"
+            type="checkbox"
+        />
+        <input
+            class="typo-plus-checkbox sr-only"
+            id="typo-plus"
+            type="checkbox"
+        />
+        <input
+            class="typo-dys-checkbox sr-only"
+            id="typo-dys"
+            type="checkbox"
+        />
+        <div class="theme-container grow">
+            <header>
+                <div class="site_title" role="heading" aria-level="1">
+                    <a href="/" class="site-title"> mortumm.dev </a>
+                </div>
+                <nav>
+                    <a href="/about/" class="pages_links">
+                        <span class="pages_names">About</span>
+                    </a>
 
-  checkbox.checked = localStorage.getItem('darkMode') === 'true';
+                    <a href="/archives/" class="pages_links">
+                        <span class="pages_names">Archives</span>
+                    </a>
+                </nav>
+                <div class="site_functions">
+                    <label
+                        class="dark-mode-label"
+                        aria-label="Night Mode"
+                        for="dark-mode"
+                    ></label>
 
-  checkbox.addEventListener('change', function (event) {
-    localStorage.setItem('darkMode', event.currentTarget.checked);
-  });
-});
+                    <label
+                        class="typo-plus-label"
+                        aria-label="Change font size"
+                        for="typo-plus"
+                    ></label>
+                </div>
+            </header>
+            <main class="page_content" aria-label="Content">
+                <article>
+                    <div class="apercu-post" role="list">
+                        <a
+                            href="/mortumm/2024/06/02/CAN-bus-reverse-engineering/"
+                            role="listitem"
+                        >
+                            <h1 class="list_post_title">
+                                <span class="a-nude"
+                                    >CAN bus reverse engineering of an
+                                    electronic turbocharger</span
+                                >
+                            </h1>
+                        </a>
 
-  document.addEventListener('DOMContentLoaded', function () {
-  const checkbox = document.querySelector('.typo-plus-checkbox');
+                        <h2 class="list_post_info">Mortumm ✷ 02 June 2024</h2>
+                        <div class="line"></div>
 
-  checkbox.checked = localStorage.getItem('typoPlus') === 'true';
+                        <a
+                            href="/mortumm/2024/06/01/ImportOld/"
+                            role="listitem"
+                        >
+                            <h1 class="list_post_title">
+                                <span class="a-nude">ImportOld</span>
+                            </h1>
+                        </a>
 
-  checkbox.addEventListener('change', function (event) {
-    localStorage.setItem('typoPlus', event.currentTarget.checked);
-  });
-});
+                        <h2 class="list_post_info">Mortumm ✷ 01 June 2024</h2>
+                        <div class="line"></div>
 
-    document.addEventListener('DOMContentLoaded', function () {
-  const checkbox = document.querySelector('.typo-dys-checkbox');
+                        <a
+                            href="/mortumm/2024/05/15/InitialPost/"
+                            role="listitem"
+                        >
+                            <h1 class="list_post_title">
+                                <span class="a-nude"
+                                    >Setup and initial post for testing</span
+                                >
+                            </h1>
+                        </a>
 
-  checkbox.checked = localStorage.getItem('typoDys') === 'true';
+                        <h2 class="list_post_info">Mortumm ✷ 15 May 2024</h2>
+                        <div class="line"></div>
+                    </div>
+                </article>
+            </main>
+            <footer>© Mortumm</footer>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const checkbox = document.querySelector(".dark-mode-checkbox");
 
-  checkbox.addEventListener('change', function (event) {
-    localStorage.setItem('typoDys', event.currentTarget.checked);
-  });
-});
-</script>
-</body>
+                checkbox.checked = localStorage.getItem("darkMode") === "true";
+
+                checkbox.addEventListener("change", function (event) {
+                    localStorage.setItem(
+                        "darkMode",
+                        event.currentTarget.checked,
+                    );
+                });
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const checkbox = document.querySelector(".typo-plus-checkbox");
+
+                checkbox.checked = localStorage.getItem("typoPlus") === "true";
+
+                checkbox.addEventListener("change", function (event) {
+                    localStorage.setItem(
+                        "typoPlus",
+                        event.currentTarget.checked,
+                    );
+                });
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const checkbox = document.querySelector(".typo-dys-checkbox");
+
+                checkbox.checked = localStorage.getItem("typoDys") === "true";
+
+                checkbox.addEventListener("change", function (event) {
+                    localStorage.setItem(
+                        "typoDys",
+                        event.currentTarget.checked,
+                    );
+                });
+            });
+        </script>
+    </body>
 </html>
