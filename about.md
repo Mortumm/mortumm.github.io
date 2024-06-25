@@ -4,11 +4,11 @@ title: About
 nav_header: true
 permalink: /about/
 ---
-
 ## In short
 
 This my very own small corner in the web.
-An engineer to be, hardware enthusiast at heart.
+An engineer to be, hardware enthusiast at heart. Mechanical keyboard fanatic.
+
 A problem solver with perseverance. A minimalist.
 
 Current focus is on server infrastructure and cloud solutions. Some software development too.
@@ -16,14 +16,14 @@ Current focus is on server infrastructure and cloud solutions. Some software dev
 
 ## CV
 
-Past work and projects with their respective descriptions in short.
+Past work and projects with their respective and brief descriptions.
 
 
 ### Work
 
 - **Public Library**
 
-  Service and security management: Managing a small team, system administrator, helpdesk enthusiast, problem and conflict solver. A very, and I mean very versatile and sometimes challenging though rewarding environment.
+  Service and security management: Managing a small team, system administrator, helpdesk enthusiast, problem and conflict solver. A very, and I mean very versatile and sometimes challenging though rewarding work environment.
 
 - **Security**
 
@@ -43,6 +43,10 @@ Past work and projects with their respective descriptions in short.
 - **KokkoLAB**
 
   Hacklab for elementary and high schoolers: Scratch programming, 3D modeling and Arduino & electronics.
+
+- ** Web library**
+
+  Frontend development with Bootstrap mostly.
 
 
 ## Contact
