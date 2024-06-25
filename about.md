@@ -7,7 +7,7 @@ permalink: /about/
 ## In short
 
 This my very own small corner in the web.
-An engineer to be, hardware enthusiast at heart. Mechanical keyboard fanatic.
+An engineer to be, hardware enthusiast at heart, mechanical keyboard fanatic.
 
 A problem solver with perseverance. A minimalist.
 
@@ -16,7 +16,7 @@ Current focus is on server infrastructure and cloud solutions. Some software dev
 
 ## CV
 
-Past work and projects with their respective and brief descriptions.
+Here is an overview of my past work experiences and projects. For more detailed information about my background, including my education and skills, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
 
 
 ### Work
@@ -42,9 +42,9 @@ Past work and projects with their respective and brief descriptions.
 
 - **KokkoLAB**
 
-  Hacklab for elementary and high schoolers: Scratch programming, 3D modeling and Arduino & electronics.
+  Hacklab for elementary and high schoolers: Scratch programming, 3D modeling and Arduino with basic electronics.
 
-- ** Web library**
+- **Web library**
 
   Frontend development with Bootstrap mostly.
 
