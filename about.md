@@ -4,7 +4,6 @@ title: About
 nav_header: true
 permalink: /about/
 ---
-## In short
 
 This my very own small corner in the web.
 An engineer to be, hardware enthusiast at heart, mechanical keyboard fanatic.
@@ -16,14 +15,14 @@ Current focus is on server infrastructure and cloud solutions. Some software dev
 
 ## CV
 
-Here is an overview of my past work experiences and projects. For more detailed information about my background, including my education and skills, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
+Here is an overview of my past work experiences and projects. For more detailed information about my background, including my education and occupation, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
 
 
 ### Work
 
 - **Public Library**
 
-  Service and security management: Managing a small team, system administrator, helpdesk enthusiast, problem and conflict solver. A very, and I mean very versatile and sometimes challenging though rewarding work environment.
+  Service and security management: Managing a small team, system administrator, helpdesk enthusiast, problem and conflict solver.
 
 - **Security**
 
@@ -31,22 +30,31 @@ Here is an overview of my past work experiences and projects. For more detailed 
 
 - **ISP**
 
-  Network and telecommunications specialist: Responsible for customer problem solving remotely, identify common bottle necks in processes, specialist for backbone network issues.
+  Network and telecommunications specialist: Responsible for customer problem solving remotely, identify common bottlenecks in processes, specialist for backbone network issues.
 
 
 ### Projects
 
 - **International Software Development Project**
 
-  Centria UAS & h_da produced a prototype for the automotive industry.
+  Centria UAS & h_da produced a part of a software prototype for the transportation industry.
 
 - **KokkoLAB**
 
-  Hacklab for elementary and high schoolers: Scratch programming, 3D modeling and Arduino with basic electronics.
+  Hacklab for elementary and high schoolers: Scratch programming, 3D modeling & printing. Arduino with basic electronics.
 
 - **Web library**
 
-  Frontend development with Bootstrap mostly.
+  Frontend development with Bootstrap.
+
+
+### Skills
+
+> C#
+
+> SQL
+
+> Risk, information and privacy management
 
 
 ## Contact
