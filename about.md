@@ -45,7 +45,7 @@ Here is an overview of my past work experiences and projects. For more detailed 
 
 - **Web library**
 
-  Frontend development with Bootstrap.
+  Frontend development, mostly with Bootstrap.
 
 
 ### Skills
@@ -53,6 +53,8 @@ Here is an overview of my past work experiences and projects. For more detailed 
 > C#
 
 > SQL
+
+> Git
 
 > Risk, information and privacy management
 
