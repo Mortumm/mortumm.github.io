@@ -48,20 +48,9 @@ Here is an overview of my past work experiences and projects. For more detailed 
   Frontend development, mostly with Bootstrap.
 
 
-### Skills
-
-> C#
-
-> SQL
-
-> Git
-
-> Risk, information and privacy management
-
-
 ## Contact
 
-You can reach me on X or Discord by the handle @mortumm
+You can reach me on X.com by the handle @mortumm
 
 Or you can write me a nice letter to the following address: me@thisverydomain
 
