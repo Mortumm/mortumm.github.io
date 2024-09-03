@@ -13,6 +13,17 @@ A problem solver with perseverance. A minimalist.
 Current focus is on server infrastructure and cloud solutions. Some software development too.
 
 
+## Contact
+
+You can reach me on X.com by the handle @mortumm
+
+Or you can write me a nice letter to the following address: me@thisverydomain
+
+[GitHub](https://github.com/Mortumm)
+
+[LinkedIn](https://www.linkedin.com/in/nuno-mendes-engineer/)
+
+
 ## CV
 
 Here is an overview of my past work experiences and projects. For more detailed information about my background, including my education and occupation, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
@@ -46,14 +57,3 @@ Here is an overview of my past work experiences and projects. For more detailed 
 - **Web library**
 
   Frontend development, mostly with Bootstrap.
-
-
-## Contact
-
-You can reach me on X.com by the handle @mortumm
-
-Or you can write me a nice letter to the following address: me@thisverydomain
-
-[GitHub](https://github.com/Mortumm)
-
-[LinkedIn](https://www.linkedin.com/in/nuno-mendes-engineer/)
