@@ -37,6 +37,7 @@ const NUM_STATIONS: usize = 10_000;
      writer.flush().unwrap();
  }
  ```
+
 Setting up the number of rows and city ID's with the crate rng and their respective ranges.
 
 Once I had a file containing the data to actually parse through, it was time to see how to approach the original problem: How to parse the generated information fast?
