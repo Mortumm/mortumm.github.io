@@ -19,7 +19,7 @@ Idea was to try out Rust and see what I can accomplish with the limited knowledg
 First part to work on, was a measurement generator. The information required for the dataset includes the ID (city) and its temperatures at a given moment in time. *Shouldn't be that hard?*
 I was mistaken. There were couple of kinks to iron out.
 
-```
+```rust
 const NUM_ROWS: usize = 1_000_000_000;
 const NUM_STATIONS: usize = 10_000;
 
@@ -46,13 +46,13 @@ Once I had a file containing the data to actually parse through, it was time to 
 
 Big O complexity was the starting place, when coming up with the implementation. What kind approach of complexity was best suited for a fast read and search? Array shouldn't be bad, for most scenarios but I was eager to try Hash Tables for this. As per the [rustlang doc](https://doc.rust-lang.org/stable/std/collections/struct.HashMap.html), it defaults to SipHash for now (per doc) and by its description "it is very competitive for medium sized keys". This sounds promising, *because performance*!
 
-```
+```rust
 let results = Arc::new(Mutex::new(HashMap::<String, StationData>::new()));
 ```
 
 To the point of reading the information from the generated file and organizing it (min & max), was done with the following:
 
-```
+```rust
 while reader.stream_position().unwrap() < end {
     buffer.clear();
     if reader.read_line(&mut buffer).unwrap() == 0 {
@@ -78,7 +78,7 @@ while reader.stream_position().unwrap() < end {
 
 Getting the temperature highs and lows, then the average.
 
-```
+```rust
 let mut output_file = File::create("results.txt").expect("Failed to create output file");
 
 for (station, data) in final_results.iter() {

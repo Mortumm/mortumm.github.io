@@ -15,9 +15,9 @@ Current focus is on server infrastructure and cloud solutions. Some software dev
 
 ## Contact
 
-You can reach me on X.com by the handle @mortumm
+You can reach me by e-mail too in the following address: me@thisverydomain
 
-Or you can write me a nice letter to the following address: me@thisverydomain
+[X.com](https://x.com/mortumm)
 
 [GitHub](https://github.com/Mortumm)
 
