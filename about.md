@@ -15,7 +15,7 @@ Current focus is on server infrastructure and cloud solutions. Some software dev
 
 ## Contact
 
-You can reach me by e-mail too in the following address: me@thisverydomain
+You can reach me by e-mail in the following address: me@thisverydomain
 
 [X.com](https://x.com/mortumm)
 
@@ -56,4 +56,4 @@ Here is an overview of my past work experiences and projects. For more detailed 
 
 - **Web library**
 
-  Frontend development, mostly with Bootstrap.
+  Frontend development making use of Bootstrap.
