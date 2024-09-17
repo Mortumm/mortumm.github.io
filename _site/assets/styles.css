@@ -162,7 +162,8 @@ a {
   background-size: 100% 100%;
 }
 
-p, li {
+p,
+li {
   font-size: var(--font-size);
   margin-bottom: var(--line-height);
 }
@@ -312,7 +313,12 @@ article {
   margin-bottom: calc(var(--line-height) * 3);
 }
 
-article h1, h2, h3, h4, h5, h6 {
+article h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: var(--line-height);
 }
 
@@ -363,7 +369,8 @@ footer {
   .site_title {
     margin-bottom: calc(var(--line-height) * 0.5);
   }
-  .site_title, .list_post_title {
+  .site_title,
+  .list_post_title {
     font-size: calc(var(--font-size) * 1.5);
   }
   .pages_links {
