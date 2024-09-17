@@ -195,7 +195,7 @@ q {
 }
 
 code {
-  background: var(--quote-color);
+  background: none;
 }
 
 .footnotes::before {
