@@ -17,7 +17,8 @@ I'm doing this by looking into the local and international possibilities to make
 In short: Use C or Rust. Make conscious decisions on tooling and platform(s) of choice.
 Keep it simple.
 
-
 Food for thought below:
+
 [Ranking Programming Languages by Energy Efficiency](https://haslab.github.io/SAFER/scp21.pdf)
+
 [Sustainability with Rust](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/)
