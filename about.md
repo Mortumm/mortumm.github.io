@@ -26,7 +26,7 @@ You can reach me by e-mail in the following address: me@thisverydomain
 
 ## CV
 
-Here is an overview of my past work experiences and projects. For more detailed information about my background, including my education and occupation, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
+Here is an overview of my past work experiences and projects. For more information about my background, including my education and occupation, please visit my [LinkedIn profile](https://www.linkedin.com/in/nuno-mendes-engineer/).
 
 
 ### Work
