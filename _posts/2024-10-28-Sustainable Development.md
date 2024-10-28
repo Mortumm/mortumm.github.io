@@ -19,5 +19,5 @@ Keep it simple.
 
 
 Food for thought below:
-https://haslab.github.io/SAFER/scp21.pdf
-https://aws.amazon.com/blogs/opensource/sustainability-with-rust/
+[Ranking Programming Languages by Energy Efficiency](https://haslab.github.io/SAFER/scp21.pdf)
+[Sustainability with Rust](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/)
