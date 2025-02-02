@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reflection on 2024"
+title: "Reflecting on 2024"
 date: 2025-01-31
 category:
   - "Mortumm"
