@@ -1,6 +1,6 @@
 # mortumm.dev
 
-My worklog and portfolio page.
+My worklog, thought process database and a portfolio page [https://mortumm.dev/](https://mortumm.dev/).
 
 ## License
 
