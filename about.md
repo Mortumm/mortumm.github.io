@@ -5,7 +5,7 @@ nav_header: true
 permalink: /about/
 ---
 
-This my very own small corner in the web.
+This is my very own small corner in the web.
 An engineer to be, hardware enthusiast at heart, mechanical keyboard fanatic.
 
 A problem solver with perseverance. A minimalist.
