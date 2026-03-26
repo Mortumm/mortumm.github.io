@@ -15,12 +15,12 @@ email: me@mortumm.dev # The owner's email
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
 
-# 2. SITE AVALAIBLE FUNCTIONS
+# 2. SITE AVAILABLE FUNCTIONS
 darkmode: true # Allows the switch between dark and light mode
 typosize: true # Allows to change the size of the font
 home-posts-limit: 5 # Change the limit of posts displayed on the home page
 
-# 3. IGNORED FILES WHILE building
+# 3. IGNORED FILES
 # These files are essential to the building of your website, but you don't want them to be built with the others
 exclude:
   - README.md
@@ -31,14 +31,14 @@ exclude:
   - .jekyll-cache
   - LICENSE.txt
 
-# 4. Plugins
+# 4. PLUGINS
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
 remote_theme: PQuod/simply-cyan-theme
 
-# 5. Collections
+# 5. COLLECTIONS
 # Authors's list
 collections:
   categories:
@@ -52,6 +52,6 @@ defaults:
     values:
       layout: "categories"
 
-# 6. Jekyll settings
+# 6. JEKYLL CFG
 permalink: pretty # Permalink will be /YYY/MM/DD/page-name/
 timezone: Europe/Helsinki

@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2024-10-03T14:26:21+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">mortumm.dev</title><subtitle>Mortumm&apos;s worklog and portfolio: Hardware enthusiasts transition to software through engineering.</subtitle><entry><title type="html">1BRC as an idea to test myself with Rust</title><link href="http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust/" rel="alternate" type="text/html" title="1BRC as an idea to test myself with Rust" /><published>2024-09-04T00:00:00+03:00</published><updated>2024-09-04T00:00:00+03:00</updated><id>http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust</id><content type="html" xml:base="http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust/"><![CDATA[<p>I did not compete or complete anything for the Advent of Code challenge, merely watched it unfold through the December of 2023.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-GB" /><updated>2026-03-26T18:07:13+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">mortumm.dev</title><subtitle>Mortumm&apos;s worklog and portfolio: Hardware enthusiasts transition to software through engineering.</subtitle><entry><title type="html">Trials of 2025</title><link href="http://localhost:4000/mortumm/2026/01/01/Trials/" rel="alternate" type="text/html" title="Trials of 2025" /><published>2026-01-01T00:00:00+02:00</published><updated>2026-01-01T00:00:00+02:00</updated><id>http://localhost:4000/mortumm/2026/01/01/Trials</id><content type="html" xml:base="http://localhost:4000/mortumm/2026/01/01/Trials/"><![CDATA[<p>The past months have really been a test of resilience and mental fortitude.</p>
+
+<p>Work has had its moments, both my day job and my entrepreneurship have been more than challenging and rewarding. New acquisitions in systems have been a process to onboard, fittingly preparing us for bigger changes coming in the first quarter of 2026. Something for all of us to adjust to, not only in the technical sense of things.</p>
+
+<p>For my entreprenurial endeavours, PaaS and SaaS solutions have been the most time consuming projects. I am more than happy to help my customers to find a leaner application, for their umm, applications.</p>
+
+<p>Studies have been a bit slower during the year, I’m looking to pick up speed for the second part of the year and really cranking it up for the 4th year.</p>
+
+<p>The most challenging parts though, have risen from my personal life: The uncontrollable, unforeseen changes and challenges. A great way to benchmark your resilience! <br />
+Taking a moment to slow down and see what is the personal plan looking like for the next two to three years.</p>
+
+<p>Eyes up, keep reaching for the stars (what ever it personally is).</p>]]></content><author><name></name></author><category term="[&quot;Mortumm&quot;]" /><summary type="html"><![CDATA[The past months have really been a test of resilience and mental fortitude.]]></summary></entry><entry><title type="html">Homelab v2025</title><link href="http://localhost:4000/mortumm/2025/03/26/Homelab-v2025/" rel="alternate" type="text/html" title="Homelab v2025" /><published>2025-03-26T00:00:00+02:00</published><updated>2025-03-26T00:00:00+02:00</updated><id>http://localhost:4000/mortumm/2025/03/26/Homelab%20v2025</id><content type="html" xml:base="http://localhost:4000/mortumm/2025/03/26/Homelab-v2025/"><![CDATA[<p>The current setup is very simple and lightweight for a homelab environment. Does exactly what it needs to do, without unnecessary complexity or bloat, and is easily replicable to a new setup once any of the hardware ultimately fails. Using recycled hardware for low cost operation.</p>
+
+<h3 id="background">Background</h3>
+
+<p>There’s been a server of sorts humming in the corner of varying rooms throughout the years and living spaces of mine. In <em>every</em> one of em. Since the early 2000’s. It’s been more in the likes of hobby than anything more serious such as a work. But also for learning and fun to be fair.</p>
+
+<p>Their necessity or use case has varied a lot too, from game servers to development environments, backups or for local media streaming. After all the changes throughout time, the current ones I have running have quite the simple requirements and purposes.</p>
+
+<h3 id="dell-optiplex-ssf">Dell OptiPlex (SSF)</h3>
+<p>A recycled but working specimen with low power profile, that could still be adjusted/tinkered further for power efficiency. Mainly a file server and backup solution. Running a headless Ubuntu Server, though I’m looking in to NixOS to make the environment itself leaner.</p>
+
+<p>Specs:</p>
+<ul>
+  <li>Processor: Intel Core i5-8500T</li>
+  <li>Memory: 8GB DDR3</li>
+  <li>Storage: 512GB+512GB SSD</li>
+</ul>
+
+<p>Running the following Docker containers:</p>
+<ul>
+  <li>RustDesk</li>
+  <li>Doc</li>
+  <li>irssi</li>
+  <li>NextCloud</li>
+</ul>
+
+<h3 id="raspberry-pi">Raspberry Pi</h3>
+
+<p>Functions as an ad blocker with Pi-Hole but also as my backup IRC client and file server. Running Raspbian in headless mode.</p>
+
+<h3 id="murderbox">MurderBox</h3>
+
+<p>The heavyhitter in the homelab. Rendering and number crunching machine. Small amount of time dedicated for streaming and gaming. PopOS as a daily driver, debloated Windows 11 for gaming and streaming.</p>
+
+<p>Specs:</p>
+<ul>
+  <li>Processor: AMD Ryzen 7 5800X</li>
+  <li>Memory: 32GB DDR4</li>
+  <li>GPU: RTX 3070Ti</li>
+</ul>
+
+<h3 id="macbook-pro-16-m2">MacBook Pro 16” M2</h3>
+
+<p>The main workhorse, not a physical part of the homelab per say but a tool that works all day long. And it just works. Minimal ricing on desktop environment.</p>
+
+<h3 id="network">Network</h3>
+
+<p>Very basic network setup with a router and an unmanaged switch. ufw with only the required holes for services used, Fail2ban on servers for security. Tailscale to provide secure remote access, on each device which also enables remote access with RustDesk easily for GUI applications if needed.</p>
+
+<h3 id="final-thoughts">Final thoughts</h3>
+
+<p>Like in the intro, this is something that suits my needs and something that I have concluded to work the best, or the easiest so far. Minimal hassle, maximized usage.
+From the long list of to-do’s: Make scripts for quick and easy installation and configuration on new hardware. Upgrading to a managed switch and implementing VLANs for better network segmentation. A proper rack with enterprise grade hardware would be a welcome addition, but only once I stumble upon such specific used hardware.</p>]]></content><author><name></name></author><category term="[&quot;Mortumm&quot;]" /><summary type="html"><![CDATA[The current setup is very simple and lightweight for a homelab environment. Does exactly what it needs to do, without unnecessary complexity or bloat, and is easily replicable to a new setup once any of the hardware ultimately fails. Using recycled hardware for low cost operation.]]></summary></entry><entry><title type="html">Reflecting on 2024</title><link href="http://localhost:4000/mortumm/2025/01/31/Reflecting/" rel="alternate" type="text/html" title="Reflecting on 2024" /><published>2025-01-31T00:00:00+02:00</published><updated>2025-01-31T00:00:00+02:00</updated><id>http://localhost:4000/mortumm/2025/01/31/Reflecting</id><content type="html" xml:base="http://localhost:4000/mortumm/2025/01/31/Reflecting/"><![CDATA[<p>Quite the year we’ve had for 2024.
+Life in general has had plenty to offer, in short some points here:</p>
+
+<ul>
+  <li>Son was born</li>
+  <li>Learned a lot about AWS inner workings</li>
+  <li>Cisco Network Switch configuration</li>
+  <li>More of Rust</li>
+  <li>Diablo 2 Resurrected, a childhood gem got replayed</li>
+</ul>
+
+<p>Lots and lots of new topics or otherwise foreign subject to gather new information about (then somehow make use of all that information), the youngest (our latest production version of human) making most out of his first six months.</p>
+
+<p>Loving the grind.</p>]]></content><author><name></name></author><category term="[&quot;Mortumm&quot;]" /><summary type="html"><![CDATA[Quite the year we’ve had for 2024. Life in general has had plenty to offer, in short some points here:]]></summary></entry><entry><title type="html">Sustainable development as a goal</title><link href="http://localhost:4000/mortumm/2024/10/28/Sustainable-Development/" rel="alternate" type="text/html" title="Sustainable development as a goal" /><published>2024-10-28T00:00:00+02:00</published><updated>2024-10-28T00:00:00+02:00</updated><id>http://localhost:4000/mortumm/2024/10/28/Sustainable%20Development</id><content type="html" xml:base="http://localhost:4000/mortumm/2024/10/28/Sustainable-Development/"><![CDATA[<p>Personal and professional choices made in the light of sustainability and consumption reduction is a matter of principle for me. As a general aim for any service or product manufacturing process:  The driving forces along the actual original problem getting solved, is the choice of platform, tools and language in regard of energy consumption and sustainability.</p>
+
+<p>In the general field of ICT, computational prowess has risen to such heights that the costs for performance or energy consumption are not in the first set of problems to solve.
+(There are limited areas of production and product development where this is one the core problems.)
+A fresh project or product rarely needs to take these issues into consideration first hand. Even the hardware we use daily (smartphones and PCs) contain so much raw processing power, that the idea of managing our compute consumption on personal level isn’t even a concern.</p>
+
+<p>I’m doing this by looking into the local and international possibilities to make these aspects a reality and continue researching the further possibilities to make an sustainability impact myself.</p>
+
+<p>In short: Use C or Rust. Make conscious decisions on tooling and platform(s) of choice.
+Keep it simple.</p>
+
+<p>Food for thought below:</p>
+
+<p><a href="https://haslab.github.io/SAFER/scp21.pdf">Ranking Programming Languages by Energy Efficiency</a></p>
+
+<p><a href="https://aws.amazon.com/blogs/opensource/sustainability-with-rust/">Sustainability with Rust</a></p>]]></content><author><name></name></author><category term="[&quot;Mortumm&quot;]" /><summary type="html"><![CDATA[Personal and professional choices made in the light of sustainability and consumption reduction is a matter of principle for me. As a general aim for any service or product manufacturing process: The driving forces along the actual original problem getting solved, is the choice of platform, tools and language in regard of energy consumption and sustainability.]]></summary></entry><entry><title type="html">1BRC as an idea to test myself with Rust</title><link href="http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust/" rel="alternate" type="text/html" title="1BRC as an idea to test myself with Rust" /><published>2024-09-04T00:00:00+03:00</published><updated>2024-09-04T00:00:00+03:00</updated><id>http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust</id><content type="html" xml:base="http://localhost:4000/mortumm/2024/09/04/1BRCTest-in-Rust/"><![CDATA[<p>I did not compete or complete anything for the Advent of Code challenge, merely watched it unfold through the December of 2023.
 But, it did spark an interest!
 Shortly after New Years Eve, I came a accross a similar challenge: 1BRC by Gunnar Morling and thought that this could be the test case I was looking for. It being public, thoroughly documented and well known, I would have the chance to compare and learn from others implementations.</p>
 

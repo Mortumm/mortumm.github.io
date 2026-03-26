@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+}
 
 :root {
     // Variable for the light mode
     --bg-color: #f2f2f2; // Background color
     /* --font-serif: "Libre Baskerville", serif; // Serif font */
-    --font-sansserif: "Montserrat", sans-serif; // Sans-Serif font
+    --font-sansserif: "Space Grotesk", sans-serif; // Sans-Serif font
     --font-color: #333333; // Font color
     --font-size: 22px; // Font size
     --text-width: 35em; // Width of the area where the content of the pages and posts are displayed
