@@ -1,15 +1,9 @@
-@font-face {
-  font-family: 'Space Grotesk';
-  src: url('/assets/fonts/SpaceGrotesk.ttf') format('truetype');
-  font-weight: 300 700;
-  font-style: normal;
-}
 
 :root {
     // Variable for the light mode
     --bg-color: #f2f2f2; // Background color
     /* --font-serif: "Libre Baskerville", serif; // Serif font */
-    --font-sansserif: "Space Grotesk", sans-serif; // Sans-Serif font
+    --font-sansserif: "Satoshi", sans-serif; // Sans-Serif font
     --font-color: #333333; // Font color
     --font-size: 22px; // Font size
     --text-width: 35em; // Width of the area where the content of the pages and posts are displayed
@@ -104,4 +98,11 @@
 #typo-dys:checked,
 #typo-dys:checked ~ .theme-container {
     --text-font: var(--font-sansserif);
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/assets/fonts/SpaceGrotesk.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
 }
