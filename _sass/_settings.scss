@@ -2,7 +2,7 @@
 :root {
     // Variable for the light mode
     --bg-color: #f2f2f2; // Background color
-    /* --font-serif: "Libre Baskerville", serif; // Serif font */
+    // --font-serif: "Satoshi", serif; // Serif font
     --font-sansserif: "Satoshi", sans-serif; // Sans-Serif font
     --font-color: #333333; // Font color
     --font-size: 22px; // Font size
@@ -20,8 +20,8 @@
     --light-mode-label: "LIGHT MODE"; // Label displayed in the header to toggle light mode
     --typo-plus-label: "A+"; // Label displayed in the header to enlarge the font size
     --typo-moins-label: "A-"; // Label displayed in the header to reduce the font size
-    /* --sans-serif-label: " SANS-SERIF FONT"; // Label displayed at the top of posts to change the font-style to sans-serif */
-    /* --serif-label: "SERIF FONT"; // Label displayed at the top of posts to change the font-style to serif */
+    // --sans-serif-label: "CHANGE FONT"; // Label displayed at the top of posts to change the font
+    // --serif-label: "CHANGE FONT"; // Label displayed at the top of posts to change the font
 }
 
 /* Dark-mode styles */
@@ -101,8 +101,8 @@
 }
 
 @font-face {
-  font-family: 'Space Grotesk';
-  src: url('/assets/fonts/SpaceGrotesk.ttf') format('truetype');
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/Satoshi.ttf') format('truetype');
   font-weight: 300 700;
   font-style: normal;
 }
